@@ -22,7 +22,7 @@ module Rack
       def headers
         {
           'Content-Type'  => 'text/html',
-          'Server' => "MochiWeb/1.0 (Any of you quaids got a smint?)"
+          'Server' => 'Cowboy'
         }
       end
 
