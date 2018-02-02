@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rack-heroku-no-such-app (0.0.1)
+    rack-heroku-no-such-app (0.0.2)
       rack (>= 1.2.0, < 3)
 
 GEM
@@ -19,3 +19,6 @@ DEPENDENCIES
   rack-heroku-no-such-app!
   rack-test (~> 0.6)
   rake (~> 0.9)
+
+BUNDLED WITH
+   1.16.1
