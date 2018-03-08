@@ -10,7 +10,7 @@ GEM
     rack (2.0.4)
     rack-test (0.8.3)
       rack (>= 1.0, < 3)
-    rake (0.9.6)
+    rake (12.3.0)
 
 PLATFORMS
   ruby
@@ -18,7 +18,7 @@ PLATFORMS
 DEPENDENCIES
   rack-heroku-no-such-app!
   rack-test (~> 0.6)
-  rake (~> 0.9)
+  rake (~> 12.3)
 
 BUNDLED WITH
    1.16.1
