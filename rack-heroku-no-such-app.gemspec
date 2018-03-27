@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "rack", ">= 1.2.0", "< 3"
 
-  s.add_development_dependency "rack-test", "~> 0.6"
+  s.add_development_dependency "rack-test", "~> 1.0"
   s.add_development_dependency "rake",      "~> 12.3"
 
   s.files         = Dir["./**/*"].reject { |file| file =~ /\.\/(bin|log|pkg|script|spec|test|vendor)/ }
