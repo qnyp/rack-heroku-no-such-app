@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "rack-heroku-no-such-app"
   s.description = "Rack middleware to prevent loading from `*.heroku.com` / `*.herokuapp.com` addresses by serving default Heroku 404 page for 'App not found'. Use in combination with custom domains."
 
-  s.add_runtime_dependency "rack", ">= 1.2.0", "< 3"
+  s.add_runtime_dependency "rack", ">= 1.2.0", "< 4"
 
   s.add_development_dependency "rack-test", "~> 2.0"
   s.add_development_dependency "rake",      "~> 13.0"
